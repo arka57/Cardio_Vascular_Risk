@@ -74,7 +74,51 @@ After applying the various approaches we observed the following results
 |Gradient Boosting                     | 100   | 91.57 |
 |XGBoosting                            | 94.96 | 91.05 |
 
+## Metric:Precision<br>
 
+|  Method                              | Train | Test  |
+|--------------------------------------|-------|-------|
+|Logistic Regression                   | 74.14 | 74.30 |
+|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Decision Tree                         | 92.18 | 83.94 |
+|Random Forest                         | 97.67 | 91.14 |
+|Gradient Boosting                     | 100   | 91.57 |
+|XGBoosting                            | 94.96 | 91.05 |
+
+## Metric:Recall<br>
+
+|  Method                              | Train | Test  |
+|--------------------------------------|-------|-------|
+|Logistic Regression                   | 74.14 | 74.30 |
+|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Decision Tree                         | 92.18 | 83.94 |
+|Random Forest                         | 97.67 | 91.14 |
+|Gradient Boosting                     | 100   | 91.57 |
+|XGBoosting                            | 94.96 | 91.05 |
+
+
+## Metric:ROC_AUC Score<br>
+
+|  Method                              | Train | Test  |
+|--------------------------------------|-------|-------|
+|Logistic Regression                   | 74.14 | 74.30 |
+|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Decision Tree                         | 92.18 | 83.94 |
+|Random Forest                         | 97.67 | 91.14 |
+|Gradient Boosting                     | 100   | 91.57 |
+|XGBoosting                            | 94.96 | 91.05 |
+
+
+## Metric:Accuracy<br>
+
+|  Method                              | Train | Test  |
+|--------------------------------------|-------|-------|
+|Logistic Regression                   | 74.14 | 74.30 |
+|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Decision Tree                         | 92.18 | 83.94 |
+|Random Forest                         | 97.67 | 91.14 |
+|Gradient Boosting                     | 100   | 91.57 |
+|XGBoosting                            | 94.96 | 91.05 |
 
 
 
