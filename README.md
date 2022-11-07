@@ -78,19 +78,19 @@ After applying the various approaches we observed the following results
 
 |  Method                              | Train | Test  |
 |--------------------------------------|-------|-------|
-|Logistic Regression                   | 74.14 | 74.30 |
-|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Logistic Regression                   | 66.72 | 69.09 |
+|Logistic Regression with GridSearchCV | 75.52 | 77.09 |                
 |Decision Tree                         | 92.18 | 83.94 |
 |Random Forest                         | 97.67 | 91.14 |
-|Gradient Boosting                     | 100   | 91.57 |
-|XGBoosting                            | 94.96 | 91.05 |
+|Gradient Boosting                     | 100   | 87.45 |
+|XGBoosting                            | 90.21 | 84.72 |
 
 ## Metric:Recall<br>
 
 |  Method                              | Train | Test  |
 |--------------------------------------|-------|-------|
-|Logistic Regression                   | 74.14 | 74.30 |
-|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
+|Logistic Regression                   | 77.35 | 72.65 |
+|Logistic Regression with GridSearchCV | 68.68 | 65.43 |                
 |Decision Tree                         | 92.18 | 83.94 |
 |Random Forest                         | 97.67 | 91.14 |
 |Gradient Boosting                     | 100   | 91.57 |
