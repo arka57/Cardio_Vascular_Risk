@@ -99,26 +99,15 @@ After applying the various approaches we observed the following results
 
 ## Metric:ROC_AUC Score<br>
 
-|  Method                              | Train | Test  |
-|--------------------------------------|-------|-------|
-|Logistic Regression                   | 74.14 | 74.30 |
-|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
-|Decision Tree                         | 92.18 | 83.94 |
-|Random Forest                         | 97.67 | 91.14 |
-|Gradient Boosting                     | 100   | 91.57 |
-|XGBoosting                            | 94.96 | 91.05 |
+|  Method                              | Train  | Test   |
+|--------------------------------------|--------|--------|
+|Logistic Regression                   | 0.7375 | 0.7281 |
+|Logistic Regression with GridSearchCV | 0.7040 | 0.7021 |                
+|Decision Tree                         | 0.9218 | 0.8394 |
+|Random Forest                         | 0.9773 | 0.9114 |
+|Gradient Boosting                     | 1.00   | 0.9188 |
+|XGBoosting                            | 0.9534 | 0.9174 |
 
-
-## Metric:Accuracy<br>
-
-|  Method                              | Train | Test  |
-|--------------------------------------|-------|-------|
-|Logistic Regression                   | 74.14 | 74.30 |
-|Logistic Regression with GridSearchCV | 70.21 | 69.61 |                
-|Decision Tree                         | 92.18 | 83.94 |
-|Random Forest                         | 97.67 | 91.14 |
-|Gradient Boosting                     | 100   | 91.57 |
-|XGBoosting                            | 94.96 | 91.05 |
 
 
 
