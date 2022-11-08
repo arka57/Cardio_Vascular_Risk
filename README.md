@@ -53,19 +53,12 @@ DV
 2)Classification task is performed using various approaches like Logistic Regression and tree based models-Decision Tree,Random Forest,GradientBoosting,XGBoost. Hyperparameter tuning is done on the above mentioned models using GridSearchCV
 
 After applying the various approaches we observed the following results. 
-We analysed the effectiveness of the different models on various parameters like 
-Accuracy( Not a very measure for classification purpose)
-Precision
-Recall
-ROC-AUC Curve and Score
-Confusion Matrix
-
-
-
-
-
-
-
+We analysed the effectiveness of the different models on various parameters like<br>
+Accuracy( Not a very good measure for classification purpose)<br>
+Precision<br>
+Recall<br>
+ROC-AUC Curve and Score<br>
+Confusion Matrix<br>
 
 
 
@@ -152,7 +145,7 @@ Confusion Matrix
 
 ## XG Boosting
 
-##Conclusion
+## Conclusion
 1) There was significant improvement in model performance as we moved from Logistic Regression to tree based models
 2) We observed a bit of overfitting in the models showing a difference in training and testing data scores
 3) Comparing all parameters XGBoost gave the best performance
